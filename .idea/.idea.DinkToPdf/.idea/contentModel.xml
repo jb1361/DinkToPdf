@@ -8,23 +8,110 @@
     <e p="E:\Projects\DinkToPdf" t="IncludeFlat">
       <e p="DinkToPdf.sln" t="IncludeFlat" />
       <e p="DinkToPdf.TestThreadSafe" t="IncludeRecursive">
-        <e p="DinkToPdf.TestThreadSafe.xproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DinkToPdf.TestThreadSafe.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DinkToPdf.TestThreadSafe.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
       </e>
       <e p="DinkToPdf.TestWebServer" t="IncludeRecursive">
-        <e p="DinkToPdf.TestWebServer.xproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="ConvertController.cs" t="Include" />
+        </e>
+        <e p="DinkToPdf.TestWebServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DinkToPdf.TestWebServer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
       </e>
       <e p="DinkToPfd.TestConsoleApp" t="IncludeRecursive">
-        <e p="DinkToPdf.TestConsoleApp.xproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DinkToPfd.TestConsoleApp.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DinkToPfd.TestConsoleApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
       </e>
-      <e p="global.json" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Solution Items" t="Include" />
       <e p="src" t="Include">
         <e p="DinkToPdf" t="IncludeRecursive">
-          <e p="DinkToPdf.xproj" t="IncludeRecursive" />
+          <e p="BasicConverter.cs" t="Include" />
+          <e p="bin" t="ExcludeRecursive" />
+          <e p="Contracts" t="Include">
+            <e p="IConverter.cs" t="Include" />
+            <e p="IDocument.cs" t="Include" />
+            <e p="IObject.cs" t="Include" />
+            <e p="ISetting.cs" t="Include" />
+            <e p="ITools.cs" t="Include" />
+          </e>
+          <e p="DinkToPdf.csproj" t="IncludeRecursive" />
+          <e p="DinkToPdf.nuspec" t="Include" />
+          <e p="Documents" t="Include">
+            <e p="HtmlToPdfDocument.cs" t="Include" />
+          </e>
+          <e p="EventDefinitions" t="Include">
+            <e p="ErrorArgs.cs" t="Include" />
+            <e p="FinishedArgs.cs" t="Include" />
+            <e p="PhaseChangedArgs.cs" t="Include" />
+            <e p="ProgressChangedArgs.cs" t="Include" />
+            <e p="WarningArgs.cs" t="Include" />
+          </e>
+          <e p="obj" t="ExcludeRecursive">
+            <e p="Debug" t="Include">
+              <e p="netcoreapp3.0" t="Include">
+                <e p="DinkToPdf.AssemblyInfo.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PdfTools.cs" t="Include" />
+          <e p="project.json" t="Include" />
+          <e p="project.lock.json" t="Include" />
+          <e p="Properties" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+          </e>
+          <e p="Settings" t="Include">
+            <e p="FooterSettings.cs" t="Include" />
+            <e p="GlobalSettings.cs" t="Include" />
+            <e p="HeaderSettings.cs" t="Include" />
+            <e p="LoadSettings.cs" t="Include" />
+            <e p="MarginSettings.cs" t="Include" />
+            <e p="ObjectSettings.cs" t="Include" />
+            <e p="PechkinPaperSize.cs" t="Include" />
+            <e p="Unit.cs" t="Include" />
+            <e p="WebSettings.cs" t="Include" />
+          </e>
+          <e p="SynchronizedConverter.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="CustomUnmanagedType.cs" t="Include" />
+            <e p="IntCallback.cs" t="Include" />
+            <e p="PaperKind.cs" t="Include" />
+            <e p="StringCallback.cs" t="Include" />
+            <e p="VoidCallback.cs" t="Include" />
+            <e p="WkHtmlAttribute.cs" t="Include" />
+          </e>
+          <e p="WkHtmlToXBindings.cs" t="Include" />
         </e>
-        <e p="Examples" t="Include" />
-        <e p="Tests" t="Include" />
       </e>
     </e>
   </component>

@@ -197,7 +197,7 @@ namespace DinkToPdf
 
             if (typeof(bool) == type)
             {
-                applySetting(config, name, ((bool)value == true ? "true" : "false"));
+                applySetting(config, name, (bool)value == true ? "true" : "false");
             }
             else if (typeof(double) == type)
             {
