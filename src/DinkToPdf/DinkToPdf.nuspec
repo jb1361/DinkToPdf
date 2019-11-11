@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>$id$</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>$author$</authors>
-    <owners>$author$</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <id>JinkToPdf</id>
+    <version>1.0</version>
+    <title>JinkToPdf</title>
+    <authors>jb1361</authors>
+    <owners>jb1361</owners>
+    <licenseUrl>https://github.com/jb1361/DinkToPdf/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jb1361/DinkToPdf</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <description>Updated Version of DinkToPdf</description>
+    <releaseNotes>Updated To Visual Studio 2019 solution and csproj files. Updated libwkhtmltox to 0.12.5. Updated Projects to dot net core 3.</releaseNotes>
     <copyright>Copyright 2019</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>Html To Pdf</tags>
   </metadata>
 </package>
