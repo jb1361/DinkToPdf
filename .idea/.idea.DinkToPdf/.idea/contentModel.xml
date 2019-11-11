@@ -77,6 +77,7 @@
             <e p="ProgressChangedArgs.cs" t="Include" />
             <e p="WarningArgs.cs" t="Include" />
           </e>
+          <e p="JinkToPdf.1.0.0.nupkg" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="netcoreapp3.0" t="Include">
@@ -85,8 +86,6 @@
             </e>
           </e>
           <e p="PdfTools.cs" t="Include" />
-          <e p="project.json" t="Include" />
-          <e p="project.lock.json" t="Include" />
           <e p="Properties" t="Include">
             <e p="AssemblyInfo.cs" t="Include" />
           </e>
