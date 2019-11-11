@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "DinkToPfd.TestConsoleApp/1.0.0": {
+        "dependencies": {
+          "DinkToPdf": "1.0.0"
+        },
+        "runtime": {
+          "DinkToPfd.TestConsoleApp.dll": {}
+        }
+      },
+      "DinkToPdf/1.0.0": {
+        "runtime": {
+          "DinkToPdf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DinkToPfd.TestConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DinkToPdf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

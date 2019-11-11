@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Justin\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Justin\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Justin\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Justin\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_DinkToPdf.761735687.00" t="ExcludeRecursive" />
+    <e p="E:\Projects\DinkToPdf" t="IncludeFlat">
+      <e p="DinkToPdf.sln" t="IncludeFlat" />
+      <e p="DinkToPdf.TestThreadSafe" t="IncludeRecursive">
+        <e p="DinkToPdf.TestThreadSafe.xproj" t="IncludeRecursive" />
+      </e>
+      <e p="DinkToPdf.TestWebServer" t="IncludeRecursive">
+        <e p="DinkToPdf.TestWebServer.xproj" t="IncludeRecursive" />
+      </e>
+      <e p="DinkToPfd.TestConsoleApp" t="IncludeRecursive">
+        <e p="DinkToPdf.TestConsoleApp.xproj" t="IncludeRecursive" />
+      </e>
+      <e p="global.json" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Solution Items" t="Include" />
+      <e p="src" t="Include">
+        <e p="DinkToPdf" t="IncludeRecursive">
+          <e p="DinkToPdf.xproj" t="IncludeRecursive" />
+        </e>
+        <e p="Examples" t="Include" />
+        <e p="Tests" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
